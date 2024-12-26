@@ -1,0 +1,115 @@
+/* for reseting the page  */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: Nunito;
+	font-weight:bold;
+	height:100%;
+}
+
+header{
+	height:10%;	
+}
+header img{
+	position:relative;
+	top:15px;
+	left:85%;	
+}
+main{
+	height:90%;
+	margin-left: 100px;
+}
+main .worldcup{
+	font-size: 3rem;
+	font-family:Arial, sans-serif;
+	font-weight:700;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.249);
+}
+main .year{
+	font-family: Nunito,serif;
+	text-shadow:0px 4px 0px rgba(0, 0, 0, 0.249);
+	font-weight:700;
+}
+section h2{
+	margin-top:25px;
+}
+section p{
+	font-size: 1.7rem;
+	color:grey;
+}
+/* setting the image as background  */
+main #bg{
+	position:absolute;
+	right:0;
+	bottom:0;	
+	z-index:-1;		
+}
+table{
+	background-color: white;
+}
+main .heading1{
+	background-color: rgb(255, 77, 0);
+	color:white;
+}
+main .scorecard{
+	margin-top: 20px;
+	border:1px solid rgb(225, 223, 223);
+	font-size: 13px;
+	width:77%;
+	border-collapse: collapse;
+	
+}
+main .player,.extras,.total,.heading2{
+	border-bottom: 1px solid black;
+}
+th,td{
+	padding:5px 10px 5px 10px;
+	text-align:left;
+}
+table thead tr:last-child{
+	background-color: rgba(248, 248, 248, 0.288);
+}
+main .heading2{
+	padding:30px;
+}
+main .sr{
+	text-align:end;
+}
+main .state{
+	position:relative;
+	left:150px;
+	color:grey;
+}
+/* For aligning the extras and total with the R(runs) */
+tbody tr:nth-child(7) td:nth-child(2),tbody tr:nth-child(8) td:nth-child(2){
+	position:relative;
+	left:500px;
+} 
+/* For aligning the R(runs) column */
+table thead tr:nth-child(2) th:nth-child(2),table tbody tr td:nth-child(3){
+	position: relative;
+	left:-50px;
+	
+}
+/* For aligning the B(balls) column */
+table thead tr:nth-child(2) th:nth-child(3),table tbody tr td:nth-child(4){
+	position: relative;
+	left:-20px;
+}
+/* For aligning the 6s column */
+table thead tr:nth-child(2) th:nth-child(5),table tbody tr td:nth-child(6){
+	position: relative;
+	left:30px;	
+}
+table tbody tr td:nth-child(6){
+	position:relative;
+	left:30px;	
+}
+a,a:visited{
+	text-decoration: none;
+	color:rgb(0, 136, 255)
+}
+
+
